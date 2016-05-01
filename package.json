@@ -1,0 +1,29 @@
+{
+  "name": "rampart-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "gulp build-scripts",
+    "watch": "gulp watch-scripts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abradley2/rampart-js"
+  },
+  "author": "Tony Bradley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abradley2/rampart-js/issues"
+  },
+  "homepage": "https://github.com/abradley2/rampart-js",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "coffeeify": "^2.0.1",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}
